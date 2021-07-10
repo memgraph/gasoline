@@ -1,0 +1,6 @@
+[package]
+name = "gasoline-derives"
+version = "0.1.0"
+
+[lib]
+proc-macro = true

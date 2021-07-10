@@ -1,0 +1,21 @@
+[package]
+name = "gasoline"
+version = "0.1.0"
+description = "A safe object-graph mapper and query builder for Rust."
+authors = ["Memgraph Contributors <tech@memgraph.com>"]
+license = "Apache-2.0"
+homepage = "https://memgraph.com"
+repository = "https://github.com/memgraph/gasoline"
+readme = "README.md"
+documentation = "https://docs.rs/gasoline"
+edition = "2018"
+keywords = ["memgraph", "ogm", "query-builder"]
+categories = ["database"]
+exclude = [
+    ".vscode/*",
+    ".github/*",
+]
+
+[dependencies]
+rsmgclient = { path = "../../rsmgclient" }
+gasoline-derives = { path = "../gasoline_derives" }
